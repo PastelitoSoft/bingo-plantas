@@ -1,1 +1,0 @@
-import * as script from './js/script.js';
