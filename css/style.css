@@ -31,10 +31,18 @@ body {
     position: absolute;
 }
 
+.marco-decoracion-vacio {
+    width: 800px;
+    height: 553px;
+}
+
 .marco-decoracion {
     opacity: 30%;
     position: absolute;
     z-index: 20;
+    width: 55%;
+    max-width: 900px;
+    background-color: blue;
 }
 
 .marco-foto {
@@ -42,7 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     border: solid 90px orange;
-    border-radius: 15px;
+    border-radius: 35px;
     width: 55%;
     max-width: 900px;
     position: absolute;
